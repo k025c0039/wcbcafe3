@@ -282,6 +282,20 @@ img{
         gap: 3rem 2rem;
         grid-template-columns: repeat(3,1fr);
     }
+    .item img{
+        margin-bottom: .5rem;
+    }
+    .item p{
+        font-size: 1rem;
+    }
+    .item-big{
+        grid-column: 1/3;
+        grid-row: 1/3;
+    }
+    .item-big img{
+        height: 94.5%;
+        width: 100%;
+    }
     /*ヘッダー*/
     .page-header{
         display: flex;
